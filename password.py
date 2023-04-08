@@ -16,6 +16,8 @@ i use the insert function. this fucntion does not replace the element in the arr
 my check function is useless. there is no need to check if an element is going to be replaced becasue insert() dosent do that. but im not fixing
 it because that sounds awful.
 
+I also should have put the while loops in a function but fuck it
+
 
 """
 import random
