@@ -7,7 +7,20 @@ Play the cows and bulls game. generate a random number and ask the user to guess
 give them a cow. if they get the number right but the place wrong, they have a bull. print this out after every guess. keep asking until
 they guess the number right.
 """
+import random
 
+#generate a random number
+number = random.randrange(1000,10000)
+
+userGuess = int(input())
+
+
+
+
+
+
+
+""" Try again, i dont like this code but am keeping it because you always keep the code
 import string
 import random
 
@@ -46,4 +59,4 @@ while(controlVar == 1):
 
     print("would you like to play again? enter a one if so")
     controlVar = int(input())
-    
+    """
